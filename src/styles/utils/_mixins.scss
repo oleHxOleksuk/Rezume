@@ -1,0 +1,5 @@
+@mixin fonts($fs: 14, $lh: 16, $ls: 0.03) {
+  font-size: #{$fs}px;
+  line-height: decimal-round(($lh / $fs), 2);
+  letter-spacing: #{$ls}em;
+}

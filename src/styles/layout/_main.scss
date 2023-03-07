@@ -1,0 +1,211 @@
+.main {
+  position: relative;
+  width: 790px;
+  // height: 1680px;
+  height: 1556px;
+  // padding: 40px 90px;
+  padding: 40px 50px;
+}
+
+.flag-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-pdf {
+  position: absolute;
+  top: 10px;
+  right: 690px;
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+  color: transparent;
+  background-color: transparent;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+.btn-pdf:hover,
+.btn-pdf:focus {
+  color: #ffffff;
+  background-color: #595959;
+}
+
+.flag {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.position {
+  @include fonts(20, 30);
+  color: #000000;
+}
+
+.aplicant {
+  @include fonts(36, 48);
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.objective {
+  margin-bottom: 10px;
+}
+
+.objective__list {
+  list-style: none;
+}
+
+.tech {
+  font-weight: 500;
+}
+
+.section-header {
+  @include fonts(22, 27);
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.projects__list {
+  padding-left: 18px;
+  font-weight: 700;
+  @include fonts(14, 24);
+  color: #000000;
+}
+
+.projects__item {
+  display: flex;
+}
+
+.wrapper {
+  width: 350px;
+  // width: 480px;
+  margin-right: 2px;
+}
+
+.dotted-line {
+  display: flex;
+  align-items: baseline;
+}
+
+// .dotted-line::after {
+//   content: "";
+//   display: inline-block;
+//   flex-grow: 1;
+//   height: 2px;
+//   border-bottom: 2px dotted #000000;
+// }
+
+.projects__gitlink {
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+.projects__link {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+.projects__link:hover,
+.projects__link:focus,
+.projects__gitlink:hover,
+.projects__gitlink:focus {
+  color: rgb(3, 44, 79);
+  background-color: #a8a8a8;
+  border-radius: 4px;
+}
+
+.projects__technology {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: 500;
+  // color: #595959;
+}
+
+.projects__description {
+  // width: 573px;
+  // width: 680px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  // color: #595959;
+  @include fonts(14, 16, 0.03);
+  font-weight: 400;
+  // background-color: #d0cfcf2f;
+  border-radius: 5px;
+}
+
+// ==========================================================================
+.job__position {
+  @include fonts(16, 20);
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.job__place {
+  color: #fb6d3a;
+}
+
+.job__duration {
+  @include fonts(12, 15);
+  // color: #a8a8a8;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.divider {
+  font-weight: 500;
+  color: #000000;
+}
+
+.job__discription {
+  padding-left: 15px;
+  @include fonts(14, 24);
+}
+
+.achievement {
+  margin-bottom: 15px;
+}
+
+.achievement span {
+  font-weight: 500;
+}
+
+.university {
+  @include fonts(16, 20);
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.faculty {
+  display: inline-block;
+  width: 120px;
+  font-weight: 700;
+  @include fonts(14, 17);
+  color: #000000;
+}
+
+.faculty-discription {
+  // color: #fb6d3a;
+  color: #000000;
+  font-weight: 700;
+  @include fonts(14, 17);
+}
+
+.qualification {
+  margin-bottom: 10px;
+}
+
+.study__duration {
+  @include fonts(12, 15);
+  // color: #a8a8a8;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
